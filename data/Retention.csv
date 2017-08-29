@@ -1,0 +1,10 @@
+Report,Year,Site,Q,I,ET,Unit,HRTime,HRTu,AvgDepth,ADu,BasinVolume,BVu,Contributing Area,Cau,PondArea,PAu,Notes,Type,log(HRT),ln(HRT)
+Harper 2011,2009,Club II,344.54,0,998.39,ac-ft,463,d,20,ft,1501,ac-ft,469.22,ac,75.2,ac,Steady GW seepage into pond,Wet Pond,2.665580991,6.137727054
+Harper 2011,2010,Club II,372.84,0,712.77,ac-ft,463,d,20,ft,1501,ac-ft,469.22,ac,75.2,ac,Steady GW seepage into pond,Wet Pond,2.665580991,6.137727054
+Harper 2010,2009,Elder Creek,1200.51,13.24,49.86,ac-ft,23,d,6.6,ft,79.2,ac-ft,234,ac,12,ac,,Wet Pond,1.361727836,3.135494216
+Harper 2010,2009,Poppleton,127.24,85.16,19.43,ac-ft,57,d,10,ft,30,ac-ft,271,ac,5.62,ac,,Wet Pond,1.755874856,4.043051268
+Harper 2010,2008,Navy Canal Pond,1312.6,0,12.61,ac-ft,12.7,d,9.8,ft,46,ac-ft,820,ac,4.7,ac,Hurricane during monitoring,Wet Pond,1.103803721,2.541601993
+Harper 2003,2002,Palm Bay B7,1671796,43417,343290,ft^3,70.1,d,6.2,ft,13.87,ac-ft,71.5,ac,2.23,ac,,Wet Pond,1.845718018,4.249922794
+Teague and Rushton 2005,2003,Tampa,2849427,244408,76481,ft^3,15.6,d,7.05,ft,101343.75,ft^3,10.4,ac,14375,ft^2,Estimated HRTime,Wet Pond,1.19311424,2.747247063
+Austin SW Model,1953,Austin,1692108.998,2190,113623,ft^3,27,d,6.05,ft,133740.8,ft^3,50,ac,20500,ft^2,Estimated HRTime,Model,1.431377088,3.295867545
+Austin SW Model,1956,Austin,784532.2904,2196,133498,ft^3,53,d,6.05,ft,133740.8,ft^3,50,ac,20500,ft^2,Estimated HRTime,Model,1.725850449,3.973917516

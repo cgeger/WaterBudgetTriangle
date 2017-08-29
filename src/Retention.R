@@ -1,0 +1,92 @@
+#This script creates figure 1, comparing natural wetlands, lakes and constructed wetlands.
+
+#Required packages:
+library(ggplot2)
+library(ggtern)
+library(dplyr)
+library(ggrepel)
+
+#Set project directory
+setwd("//hd.ad.syr.edu/02/c199b1/Documents/Triangle/WaterBudgetTriangle")
+
+#load dataset
+R <- read.csv("data/Retention.csv")
+
+#calculate ratios from raw values
+R$sum <- R$Q + R$I + R$ET
+R$Qr <- R$Q/R$sum * 100
+R$Ir <- R$I/R$sum * 100
+R$ETr <- R$ET/R$sum * 100
+
+#text label adjustments
+R$vjust <- c(0.3,0.3,0,0.3,0,0,0,0.3,0.3)
+R$hjust <- c(-0.2,-0.2,1.2,-0.2,1.2,1.2,1.2,-0.2,-0.2)
+R$Site <- c("Club II 2009", "Club II 2010", "Elder Creek", "Poppleton   ","Navy Canal", "Palm Bay", "Tampa  ", "Austin 1953", "Austin 1956")
+
+#amended dataset
+str(R)
+R
+
+#plot on Ternary diagram
+pdf("results/Fig2Retention_HRT.pdf")
+ggtern(data= R, aes(Qr, Ir, ETr)) + 
+  theme_bw() + theme_clockwise() +
+  theme_rotate(60) + theme_showarrows() +
+  Llab("Q", labelarrow = "Q - Runoff") +
+  Tlab("I", labelarrow = "I - Infiltration") +
+  Rlab("ET", labelarrow = "ET - Evapotranspiration") + geom_mask() +
+  geom_point(aes(color = log(HRTime)), size = 2) +
+  geom_point(aes(color = log(HRTime)), size = 5, alpha = 0.4) +
+  scale_colour_gradient("Hydraulic\nRetention\nTime",low = "darkblue", high= "red", 
+                        breaks=c(2.996,3.689,4.605,5.298,5.991),
+                        labels=c("20","40","100","200","400 days")) +
+  geom_text(aes(label= Site,vjust = vjust, hjust = hjust), size = 2.5)
+dev.off()
+
+#Calculate summary statistics: mean, median and count
+R %>% summarize(avgQ = mean(Qr), avgI = mean(Ir), avgET = mean(ETr),
+                medQ = median(Qr), medI = median(Ir), medET = median(ETr),
+                n = n())
+
+#Get quantile ranges (rounded to nearest 5%)
+round(quantile(R$Qr/5,c(0.05,0.95)))*5 #Q
+round(quantile(R$Ir/5,c(0.05,0.95)))*5 #I
+round(quantile(R$ETr/5,c(0.05,0.95)))*5 #ET
+
+#Get confidence intervals around mean values
+#How many times do you want to sample?
+S <- 1000
+m <- numeric(S) #initialize vector of means
+
+#resample Q
+set.seed(1)
+for(i in 1:S) {
+  s <- sample(R$Qr, size = length(R$Qr), replace = T)
+  m[i] <- mean(s)
+}
+hist(m) #histogram of resampled means
+mean(m) #mean of means
+#5th and 95th percentiles of Q distribution of means (rounded to nearest 1%)
+round(quantile(m, c(0.05,0.95)))
+
+#resample I
+set.seed(1)
+for(i in 1:S) {
+  s <- sample(R$Ir, size = length(R$Ir), replace = T)
+  m[i] <- mean(s)
+}
+hist(m)
+mean(m)
+#5th and 95th percentiles of I distribution of means (rounded to nearest 1%)
+round(quantile(m, c(0.05,0.95)))
+
+#resample ET
+set.seed(1)
+for(i in 1:S) {
+  s <- sample(R$ETr, size = length(R$ETr), replace = T)
+  m[i] <- mean(s)
+}
+hist(m)
+mean(m)
+#5th and 95th percentiles of ET distribution of means (rounded to nearest 1%)
+round(quantile(m, c(0.05,0.95)))

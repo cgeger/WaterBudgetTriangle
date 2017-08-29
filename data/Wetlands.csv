@@ -1,0 +1,77 @@
+Site,Location,Reference,Ryear,P,Q,I,ET,Category,LongCategory,LongRef
+Pennine moorland,"Cumbria, UK",Crisp,1966,2130,81,0,19,Natural wetland,Natural wetland,Crisp (1966)
+Thoreau's Bog,MA,Hemond,1980,1448,19,0,81,Natural wetland,Natural wetland,"Hemond (1980), assumes that I = 0, residual is dS = 0.19, as reported in Lent et al. (1997)"
+Thoreau's Bog,MA,Hemond,1980,1448,17,13,70,Natural wetland,Natural wetland,"Hemond (1980), assuming residual is I = 0.183 and dS = 0"
+Route 2 wetland,MA,O'Brien,1977,,6,40,54,Natural wetland,Natural wetland,"O'Brien (1977), reported in Lent et al. (1997)"
+Conant Road wetland,MA,O'Brien,1977,,6,38,56,Natural wetland,Natural wetland,"O'Brien (1977), reported in Lent et al. (1997)"
+Okefenokee Swamp,FL,Rykiel,1984,,44,2,54,Natural wetland,Natural wetland,"Rykiel (1984), reported in Lent et al. (1997)"
+Phelps Marsh,MN,Brown and Stark,1990,,47,5,48,Natural wetland,Natural wetland,"Brown and Stark (1990), reported in Lent et al. (1997)"
+Rich Fen,Wales,Gilman,1982,,67,0,33,Natural wetland,Natural wetland,"Gilman (1982), reported in Lent et al. (1997)"
+Organic soil bog,MN,Verry and Timmons,1982,,45,9,46,Natural wetland,Natural wetland,"Verry and Timmons (1982), reported in Lent et al. (1997)"
+Beverly Swamp,Ontario,Woo and Valverde,1981,,31,0,69,Natural wetland,Natural wetland,"Woo and Valverde (1981), reported in Lent et al. (1997)"
+Cypress dome,FL,Heimburg,1984,,0,37,63,Natural wetland,Natural wetland,"Heimburg (1984), reported in Lent et al. (1997)"
+Prairie pothole,ND,Winter,1981,,0,6,94,Natural wetland,Natural wetland,"Winter (1981), reported in Lent et al. (1997)"
+Prairie pothole,ND,Shjeflo,1968,,0,22,78,Natural wetland,Natural wetland,"Shjeflo (1968), reported in Lent et al. (1997)"
+Cypress swamp,IL,Mitsch et al.,1979,,25,9,66,Natural wetland,Natural wetland,"Mitsch et al. (1979), reported in Lent et al. (1997)"
+Cypress swamp,IL,Mitsch et al.,1979,,58,5,37,Natural wetland,Natural wetland,"Mitsch et al. (1979), reported in Lent et al. (1997)"
+Frozen fen,Northwest Territories,Roulet and Woo,1986,,60,0,40,Natural wetland,Natural wetland,"Roulet and Woo (1986), reported in Lent et al. (1997)"
+Saint Joseph Marsh,MN,Brown and Stark,1990,,82,0,18,Natural wetland,Natural wetland,"Brown and Stark (1990), reported in Lent et al. (1997)"
+Badley Fen Moor,Wales,Gilvear et al,1993,,82,0,18,Natural wetland,Natural wetland,"Gilvear et al (1993), reported in Lent et al. (1997)"
+Typha marsh,Ontario,Gehrels and Mulamoottil,1990,,36,53,11,Natural wetland,Natural wetland,"Gehrels and Mulamoottil (1990), reported in Lent et al. (1997)"
+Lake Wingra marsh,WI,Huff and Young,1980,,85,8,7,Natural wetland,Natural wetland,"Huff and Young (1980), reported in Lent et al. (1997)"
+Nevin wetland,WI,Novitzki,1978,,92,0,8,Natural wetland,Natural wetland,"Novitzki (1978), reported in Lent et al. (1997)"
+ENRP,FL,Moustafa,1999,1448,69,24,7,Constructed wetland,Constructed series,Moustafa (1999) reported by Nungesser and Chimney
+ENRP,FL,Choi and Harvey,2000,1470,68,23,10,Constructed wetland,Constructed series,"Choi and Harvey (2000) reported by Nungesser and Chimney, rain calculated from Choi/Harvey"
+ENRP,FL,Nungesser and Chimney,2006,1426,71,20,9.3,Constructed wetland,Constructed series,"Nungesser and Chimney, Choi and Harvey (2000) accounting for net groundwater flux"
+OWRWP,OH,Mitsch et al.,2014,1068,65,33,2,Constructed wetland,Constructed series,Mitsch et al. (2014)
+OWRWP 1994,OH,Mitsch et al.,1994,1000,72,26,2,Constructed wetland,Constructed series,Mitsch et al. (2014)
+OWRWP 1995,OH,Mitsch et al.,1995,1400,72,27,2,Constructed wetland,Constructed series,Mitsch et al. (2014)
+OWRWP 1996,OH,Mitsch et al.,1996,1700,53,44,3,Constructed wetland,Constructed series,Mitsch et al. (2014)
+OWRWP 1997,OH,Mitsch et al.,1997,1100,64,34,2,Constructed wetland,Constructed series,Mitsch et al. (2014)
+OWRWP 1998,OH,Mitsch et al.,1998,700,70,28,2,Constructed wetland,Constructed series,Mitsch et al. (2014)
+OWRWP 1999,OH,Mitsch et al.,1999,500,67,31,2,Constructed wetland,Constructed series,Mitsch et al. (2014)
+OWRWP 2000,OH,Mitsch et al.,2000,1100,64,34,2,Constructed wetland,Constructed series,Mitsch et al. (2014)
+OWRWP 2001,OH,Mitsch et al.,2001,1100,62,36,2,Constructed wetland,Constructed series,Mitsch et al. (2014)
+OWRWP 2002,OH,Mitsch et al.,2002,1400,61,37,2,Constructed wetland,Constructed series,Mitsch et al. (2014)
+OWRWP 2003,OH,Mitsch et al.,2003,1300,58,40,2,Constructed wetland,Constructed series,Mitsch et al. (2014)
+OWRWP 2004,OH,Mitsch et al.,2004,1000,63,35,3,Constructed wetland,Constructed series,Mitsch et al. (2014)
+OWRWP 2005,OH,Mitsch et al.,2005,1100,48,49,3,Constructed wetland,Constructed series,Mitsch et al. (2014)
+OWRWP 2006,OH,Mitsch et al.,2006,1000,52,44,3,Constructed wetland,Constructed series,Mitsch et al. (2014)
+OWRWP 2007,OH,Mitsch et al.,2007,1400,70,28,2,Constructed wetland,Constructed series,Mitsch et al. (2014)
+OWRWP 2008,OH,Mitsch et al.,2008,900,61,37,2,Constructed wetland,Constructed series,Mitsch et al. (2014)
+OWRWP 2009,OH,Mitsch et al.,2009,700,62,36,2,Constructed wetland,Constructed series,Mitsch et al. (2014)
+OWRWP 2010,OH,Mitsch et al.,2010,800,67,32,2,Constructed wetland,Constructed series,Mitsch et al. (2014)
+OWRWP 2011,OH,Mitsch et al.,2011,1300,69,30,2,Constructed wetland,Constructed series,Mitsch et al. (2014)
+OWRWP 2012,OH,Mitsch et al.,2012,800,73,25,2,Constructed wetland,Constructed series,Mitsch et al. (2014)
+Option A,SC,Strosnider,2007,1243,58,31,12,Model (constructed),Model (constructed),"Strosnider, Hitchcock, Burke, Lewitus (2007)"
+Option B,SC,Strosnider,2007,1243,58,34,10,Model (constructed),Model (constructed),"Strosnider, Hitchcock, Burke, Lewitus (2007)"
+Charlie Long Millpond perimeter,NC,Caldwell,2007,2339,10,27,63,Model (natural),Model (natural),"Caldwell, Vepraskas, Skaggs and Gregory (2007)"
+Causeway Bay perimeter,NC,Caldwell,2007,2187,6,22,72,Model (natural),Model (natural),"Caldwell, Vepraskas, Skaggs and Gregory (2007)"
+Tatum Millpond Bay perimeter,NC,Caldwell,2007,2177,9,27,64,Model (natural),Model (natural),"Caldwell, Vepraskas, Skaggs and Gregory (2007)"
+Causeway Bay center,NC,Caldwell,2007,2187,18,4,77,Model (natural),Model (natural),"Caldwell, Vepraskas, Skaggs and Gregory (2007)"
+Tatum Millpond Bay center,NC,Caldwell,2007,2247,1,20,79,Model (natural),Model (natural),"Caldwell, Vepraskas, Skaggs and Gregory (2007)"
+Fort Lee,VA,Daniels,2000,892.4,56,0,44,Constructed wetland,Constructed wetland,"Daniels, et al (2000) accounts for net GW influx, I = 0"
+Manassas,VA,Daniels,2000,930,97,0.3,2.7,Natural wetland,Natural wetland,"Daniels, Cummings, Schmidt, Fomchenko, Speiran, Focazio, Fitch (2000)"
+Bryant Lake,MN,Brown,1986,,56,0,44,Natural lake,Natural lake,"Brown (1986), reported in Lent et al. (1997)"
+Eagle Point,MN,Brown,1986,,45,12,43,Natural lake,Natural lake,"Brown (1986), reported in Lent et al. (1997)"
+Fish Lake,MN,Brown,1986,,60,0,40,Natural lake,Natural lake,"Brown (1986), reported in Lent et al. (1997)"
+Lake Elmo,MN,Brown,1986,,60,0,40,Natural lake,Natural lake,"Brown (1986), reported in Lent et al. (1997)"
+Lake Riley,MN,Brown,1986,,40,29,31,Natural lake,Natural lake,"Brown (1986), reported in Lent et al. (1997)"
+Spring Lake,MN,Brown,1986,,82,0,18,Natural lake,Natural lake,"Brown (1986), reported in Lent et al. (1997)"
+Square Lake,MN,Brown,1986,,74,0,26,Natural lake,Natural lake,"Brown (1986), reported in Lent et al. (1997)"
+Baptiste Lake,Alberta,Crowe and Schwartz,1981,,71,13,16,Natural lake,Natural lake,"Crowe and Schwartz (1981), reported in Lent et al. (1997)"
+Wabamum Lake,Alberta,Crowe and Schwartz,1985,,7,40,53,Natural lake,Natural lake,"Crowe and Schwartz (1985), reported in Lent et al. (1997)"
+Soft-water seep lake,WI,Wentz et al.,1995,,0,22,78,Natural lake,Natural lake,"Wentz et al (1995), reported in Lent et al (1997)"
+Lake Five-O,FL,Pollman et al.,1991,,0,48,52,Natural lake,Natural lake,"Pollman et al (1991), reported in Lent et al (1997)"
+Lake Barco,FL,Pollman et al.,1991,,0,34,66,Natural lake,Natural lake,"Pollman et al (1991), reported in Lent et al (1997)"
+Devils Lake,ND,Wiche,1992,,0,0,100,Natural lake,Natural lake,"Wiche (1992), reported in Lent et al (1997)"
+BIOECODS 2007,Malaysia,Ayub,2010,1409,99,0,1,Constructed wetland,Constructed series,"Ayub, Zakaria, Abdullah, Ramli (2010)"
+BIOECODS 2009,Malaysia,Ayub,2010,2753,99,0,1,Constructed wetland,Constructed series,"Ayub, Zakaria, Abdullah, Ramli (2010)"
+DPRWDP EW3 1990,IL,Hey,1994,830,95,0,5,Constructed wetland,Constructed series,"Hey, Barrett and Biegen (1994), P estimated"
+DPRWDP EW3 1991,IL,Hey,1994,780,92,1,7,Constructed wetland,Constructed series,"Hey, Barrett and Biegen (1994), P estimated"
+DPRWDP EW4 1990,IL,Hey,1994,830,79,0,21,Constructed wetland,Constructed series,"Hey, Barrett and Biegen (1994), P estimated"
+DPRWDP EW4 1991,IL,Hey,1994,780,67,3,30,Constructed wetland,Constructed series,"Hey, Barrett and Biegen (1994), P estimated"
+DPRWDP EW5 1990,IL,Hey,1994,830,89,6,5,Constructed wetland,Constructed series,"Hey, Barrett and Biegen (1994), P estimated"
+DPRWDP EW5 1991,IL,Hey,1994,780,63,30,6,Constructed wetland,Constructed series,"Hey, Barrett and Biegen (1994), P estimated"
+DPRWDP EW6 1990,IL,Hey,1994,830,8,83,9,Constructed wetland,Constructed series,"Hey, Barrett and Biegen (1994), P estimated"
+DPRWDP EW6 1991,IL,Hey,1994,780,10,70,21,Constructed wetland,Constructed series,"Hey, Barrett and Biegen (1994), P estimated"

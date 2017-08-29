@@ -1,0 +1,59 @@
+Reference,Site,Date,Month,P,Q,I,ET,,Type,shape,alpha,Notes
+Harper1999,"DeBary, FL",7 months,,644,20,71,9,,Dry detention pond,Cumulative retention (>6 months),0.6,
+Daniels_etal1999,Ft Lee Mitigation Wetland,May-98,5,99.6,60,0,40,,Intermittent constructed wetland,Event or Monthly retention,1,Assumes I is 0 when groundwater seepage into structure is positive
+Daniels_etal1999,Ft Lee Mitigation Wetland,Jun-98,6,48.5,0,0,100,,Intermittent constructed wetland,Event or Monthly retention,1,Assumes I is 0 when groundwater seepage into structure is positive
+Daniels_etal1999,Ft Lee Mitigation Wetland,Jul-98,7,48.8,0,0,100,,Intermittent constructed wetland,Event or Monthly retention,1,Assumes I is 0 when groundwater seepage into structure is positive
+Daniels_etal1999,Ft Lee Mitigation Wetland,Aug-98,8,62,0,0,100,,Intermittent constructed wetland,Event or Monthly retention,1,Assumes I is 0 when groundwater seepage into structure is positive
+Daniels_etal1999,Ft Lee Mitigation Wetland,Sep-98,9,70.1,0,0,100,,Intermittent constructed wetland,Event or Monthly retention,1,Assumes I is 0 when groundwater seepage into structure is positive
+Daniels_etal1999,Ft Lee Mitigation Wetland,Oct-98,10,16.5,0,0,100,,Intermittent constructed wetland,Event or Monthly retention,1,Assumes I is 0 when groundwater seepage into structure is positive
+Daniels_etal1999,Ft Lee Mitigation Wetland,Nov-98,11,23.1,0,0,100,,Intermittent constructed wetland,Event or Monthly retention,1,Assumes I is 0 when groundwater seepage into structure is positive
+Daniels_etal1999,Ft Lee Mitigation Wetland,Dec-98,12,160.3,19,75,6,,Intermittent constructed wetland,Event or Monthly retention,1,Assumes I is 0 when groundwater seepage into structure is positive
+Daniels_etal1999,Ft Lee Mitigation Wetland,Jan-99,1,133.6,94,0,6,,Intermittent constructed wetland,Event or Monthly retention,1,Assumes I is 0 when groundwater seepage into structure is positive
+Daniels_etal1999,Ft Lee Mitigation Wetland,Feb-99,2,37.1,1,15,83,,Intermittent constructed wetland,Event or Monthly retention,1,Assumes I is 0 when groundwater seepage into structure is positive
+Daniels_etal1999,Ft Lee Mitigation Wetland,Mar-99,3,90.2,86,0,14,,Intermittent constructed wetland,Event or Monthly retention,1,Assumes I is 0 when groundwater seepage into structure is positive
+Daniels_etal1999,Ft Lee Mitigation Wetland,Apr-99,4,102.6,24,0,76,,Intermittent constructed wetland,Event or Monthly retention,1,Assumes I is 0 when groundwater seepage into structure is positive
+Daniels_etal1999,Ft Lee Mitigation Wetland,Annual,,892.4,41,10,49,,Intermittent constructed wetland,Cumulative retention (>6 months),0.6,Assumes I is 0 when groundwater seepage into structure is positive
+Emerson2003,Green-Ampt model,9/14/2001,9,11.938,0,68,32,,Detention pond model,Event or Monthly retention,1,"Assumes Initial Abstraction evaporates, then moisture deficit is fulfilled and the remainder becomes runoff"
+Emerson2003,Green-Ampt model,9/20/2001,9,50.292,89,4,8,,Detention pond model,Event or Monthly retention,1,"Assumes Initial Abstraction evaporates, then moisture deficit is fulfilled and the remainder becomes runoff"
+Emerson2003,Green-Ampt model,5/12/2002,5,34.29,97,3,0,,Detention pond model,Event or Monthly retention,1,"Assumes Initial Abstraction evaporates, then moisture deficit is fulfilled and the remainder becomes runoff"
+Emerson2003,Green-Ampt model,6/6/2002,6,41.91,96,4,0,,Detention pond model,Event or Monthly retention,1,"Assumes Initial Abstraction evaporates, then moisture deficit is fulfilled and the remainder becomes runoff"
+Emerson2003,Green-Ampt model,7/23/2002,7,3.302,0,0,100,,Detention pond model,Event or Monthly retention,1,"Assumes Initial Abstraction evaporates, then moisture deficit is fulfilled and the remainder becomes runoff"
+Emerson2003,Green-Ampt model,8/24/2002,8,14.986,0,75,25,,Detention pond model,Event or Monthly retention,1,"Assumes Initial Abstraction evaporates, then moisture deficit is fulfilled and the remainder becomes runoff"
+Emerson2003,Green-Ampt model,8/28/2002,8,30.48,87,1,13,,Detention pond model,Event or Monthly retention,1,"Assumes Initial Abstraction evaporates, then moisture deficit is fulfilled and the remainder becomes runoff"
+Emerson2003,Green-Ampt model,7 cumulative events,,187.198,77,13,10,,Detention pond model,Cumulative retention (>6 months),1,"Assumes Initial Abstraction evaporates, then moisture deficit is fulfilled and the remainder becomes runoff"
+Ayub 2010,BioECODS 2007,April,4,192,78,22,0,,Intermittent constructed wetland,Event or Monthly retention,1,"Estimated from linear regression, Assumes dS = I"
+Ayub 2010,BioECODS 2007,May,5,83,77,23,0,,Intermittent constructed wetland,Event or Monthly retention,1,"Estimated from linear regression, Assumes dS = I"
+Ayub 2010,BioECODS 2007,June,6,122,77,23,0,,Intermittent constructed wetland,Event or Monthly retention,1,"Estimated from linear regression, Assumes dS = I"
+Ayub 2010,BioECODS 2007,July,7,545,77,23,0,,Intermittent constructed wetland,Event or Monthly retention,1,"Estimated from linear regression, Assumes dS = I"
+Ayub 2010,BioECODS 2007,August,8,81,77,23,0,,Intermittent constructed wetland,Event or Monthly retention,1,"Estimated from linear regression, Assumes dS = I"
+Ayub 2010,BioECODS 2007,September,9,238,77,23,0,,Intermittent constructed wetland,Event or Monthly retention,1,"Estimated from linear regression, Assumes dS = I"
+Ayub 2010,BioECODS 2007,October,10,148,77,23,0,,Intermittent constructed wetland,Event or Monthly retention,1,"Estimated from linear regression, Assumes dS = I"
+Ayub 2010,BioECODS 2007,7 months,,1409,99,0,1,,Intermittent constructed wetland,Cumulative retention (>6 months),0.6,"Estimated from water balance, assumes groundwater influx, I = 0"
+Ayub 2010,BioECODS 2009,April,4,7,97,3,0,,Intermittent constructed wetland,Event or Monthly retention,1,"Estimated from linear regression, Assumes dS = I"
+Ayub 2010,BioECODS 2009,May,5,355,97,3,0,,Intermittent constructed wetland,Event or Monthly retention,1,"Estimated from linear regression, Assumes dS = I"
+Ayub 2010,BioECODS 2009,June,6,263,97,3,0,,Intermittent constructed wetland,Event or Monthly retention,1,"Estimated from linear regression, Assumes dS = I"
+Ayub 2010,BioECODS 2009,July,7,673,97,3,0,,Intermittent constructed wetland,Event or Monthly retention,1,"Estimated from linear regression, Assumes dS = I"
+Ayub 2010,BioECODS 2009,August,8,739,97,3,0,,Intermittent constructed wetland,Event or Monthly retention,1,"Estimated from linear regression, Assumes dS = I"
+Ayub 2010,BioECODS 2009,September,9,300,97,3,0,,Intermittent constructed wetland,Event or Monthly retention,1,"Estimated from linear regression, Assumes dS = I"
+Ayub 2010,BioECODS 2009,October,10,416,97,3,0,,Intermittent constructed wetland,Event or Monthly retention,1,"Estimated from linear regression, Assumes dS = I"
+Ayub 2010,BioECODS 2009,7 Months,,2753,99,0,1,,Intermittent constructed wetland,Cumulative retention (>6 months),0.6,"Estimated from water balance, assumes groundwater influx, I = 0"
+Shukla2015,SDA1 Yr1,Annual,,1100,51,22,27,,Pumped detention pond,Cumulative retention (>6 months),0.6,
+Shukla2015,SDA1 Yr2,Annual,,1270,48,28,24,,Pumped detention pond,Cumulative retention (>6 months),0.6,
+Shukla2015,SDA2 Yr1,Annual,,1400,50,39,11,,Pumped detention pond,Cumulative retention (>6 months),0.6,
+Shukla2015,SDA2 Yr2,Annual,,1200,4,60,36,,Pumped detention pond,Cumulative retention (>6 months),0.6,
+Harper2002,Key Colony,August,8,147.6,66,16,17,,Dry detention pond,Event or Monthly retention,1,"reported flux to GW is assumed to be ET + I, ET estimated as up to max PET, I is remainder, dS = 0"
+Harper2002,Key Colony,September,9,217.2,27,48,25,,Dry detention pond,Event or Monthly retention,1,"reported flux to GW is assumed to be ET + I, ET estimated as up to max PET, I is remainder, dS = 1"
+Harper2002,Key Colony,October,10,202.9,51,36,13,,Dry detention pond,Event or Monthly retention,1,"reported flux to GW is assumed to be ET + I, ET estimated as up to max PET, I is remainder, dS = 2"
+Harper2002,Key Colony,November,11,62.7,49,23,27,,Dry detention pond,Event or Monthly retention,1,"reported flux to GW is assumed to be ET + I, ET estimated as up to max PET, I is remainder, dS = 3"
+Harper2002,Key Colony,December,12,76.2,38,19,43,,Dry detention pond,Event or Monthly retention,1,"reported flux to GW is assumed to be ET + I, ET estimated as up to max PET, I is remainder, dS = 4"
+Harper2002,Key Colony,January,1,18.5,0,0,100,,Dry detention pond,Event or Monthly retention,1,"reported flux to GW is assumed to be ET + I, ET estimated as up to max PET, I is remainder, dS = 5"
+Harper2002,Key Colony,February,2,87.6,0,4,96,,Dry detention pond,Event or Monthly retention,1,"reported flux to GW is assumed to be ET + I, ET estimated as up to max PET, I is remainder, dS = 6"
+Harper2002,Key Colony,March,3,18.8,0,0,100,,Dry detention pond,Event or Monthly retention,1,"reported flux to GW is assumed to be ET + I, ET estimated as up to max PET, I is remainder, dS = 7"
+Harper2002,Key Colony,April,4,5.6,0,0,100,,Dry detention pond,Event or Monthly retention,1,"reported flux to GW is assumed to be ET + I, ET estimated as up to max PET, I is remainder, dS = 8"
+Harper2002,Key Colony,May,5,89.2,38,0,62,,Dry detention pond,Event or Monthly retention,1,"reported flux to GW is assumed to be ET + I, ET estimated as up to max PET, I is remainder, dS = 9"
+Harper2002,Key Colony,June,6,237.2,67,28,6,,Dry detention pond,Event or Monthly retention,1,"reported flux to GW is assumed to be ET + I, ET estimated as up to max PET, I is remainder, dS = 10"
+Harper2002,Key Colony,July,7,54.6,27,0,73,,Dry detention pond,Event or Monthly retention,1,"reported flux to GW is assumed to be ET + I, ET estimated as up to max PET, I is remainder, dS = 11"
+Harper2002,Key Colony,August,8,103.1,0,19,81,,Dry detention pond,Event or Monthly retention,1,"reported flux to GW is assumed to be ET + I, ET estimated as up to max PET, I is remainder, dS = 12"
+Harper2002,Key Colony,September,9,134.4,30,0,70,,Dry detention pond,Event or Monthly retention,1,"reported flux to GW is assumed to be ET + I, ET estimated as up to max PET, I is remainder, dS = 13"
+Harper2002,Key Colony,October,10,81.3,45,2,53,,Dry detention pond,Event or Monthly retention,1,"reported flux to GW is assumed to be ET + I, ET estimated as up to max PET, I is remainder, dS = 14"
+Harper2002,Key Colony,15 months,,1537,48,25,27,,Dry detention pond,Cumulative retention (>6 months),0.6,"reported flux to GW is assumed to be ET + I, ET estimated as up to max PET, I is remainder, dS = 15"
