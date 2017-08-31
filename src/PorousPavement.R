@@ -1,4 +1,4 @@
-#Figure 10 #This script creates figure 5, comparing various porous pavement types
+#This script creates figure 5, comparing various types of porous pavement.
 
 #Required packages:
 library(ggplot2)
@@ -39,11 +39,10 @@ cbPalette <- c("#009E73", #kellygreen
                "#D55E00") #orange-red
                
 #plot on Ternary diagram
-pdf("results/Fig5PorousPavement.pdf", width = 10)              
+pdf("results/Fig5PorousPavement.pdf", width = 9)              
 ggtern(data = PP, aes(Q, I, ET)) + 
   theme_bw() + theme_clockwise() +
   theme_rotate(60) + theme_showarrows() +
-  #labs(title="Porous Pavement") +
   Llab("Q", labelarrow = "Q - Runoff") +
   Tlab("I", labelarrow = "I - Infiltration") +
   Rlab("ET", labelarrow = "ET - Evapotranspiration") + geom_mask() +
@@ -55,10 +54,9 @@ ggtern(data = PP, aes(Q, I, ET)) +
   scale_alpha_continuous(limits = c(0,1), guide = F)
 dev.off()
 
-#A subset of the wetlands dataset is used to calculate summary statistics
-#load subset of wetland values
+#A subset of the porous pavement dataset is used to calculate summary statistics
 PP %>%
-  filter(Type == "Porous Pavement, Cobblestone or Interlocking pavers") %>%
+  filter(Type == "Porous pavement, cobblestone or interlocking pavers") %>%
   summarize(avgQ = mean(Q),avgI = mean(I),avgET = mean(ET), 
             medQ = median(Q), medI = median(I), medET = median(ET),
             n = n())
@@ -70,23 +68,9 @@ PP %>%
             n = n())
 
 
-PP$quarter <- c("","","","","Spring","Summer", "Summer","Summer", "Fall","Fall","Fall",
-                "Winter","Winter","Winter","Spring","Spring", "","Spring", "Summer", "Summer","Summer", "Fall","Fall","Fall",
-                "Winter","Winter","Winter","Spring","Spring","","Summer","Winter","","Summer","Winter","","Summer","Winter","","Summer","Winter","")
-PPmon <- PP[PP$quarter != "",]
-ggtern(data= PPmon, aes(Q, I, ET, color = quarter)) + 
-  theme_bw() +
-  theme_clockwise() +
-  theme_rotate(60) + 
-  theme_showarrows() +
-  labs(title="Porous Pavement") +
-  Llab("Q", labelarrow = "Q - Runoff") +
-  Tlab("I", labelarrow = "I - Infiltration") +
-  Rlab("ET", labelarrow = "ET - Evapotranspiration") + geom_mask() +
-  geom_point(aes(size = Precip), alpha = 0.7) + geom_point()
-
-
 PPsubset <- PP[PP$Type == "Porous pavement, cobblestone or interlocking pavers",]
+
+
 #Get quantiles (round to nearest 5%)
 round(quantile(PPsubset$Q/5,c(0.05,0.95)))*5
 round(quantile(PPsubset$I/5,c(0.05,0.95)))*5
@@ -98,6 +82,7 @@ R <- 1000
 m <- numeric(R) #initialize vector of means
 
 #resample Q
+set.seed(1)
 for(i in 1:R) {
   s <- sample(PPsubset$Q, size = length(PPsubset$Q), replace = T)
   m[i] <- mean(s)
@@ -109,6 +94,7 @@ mean(m)
 round(quantile(m, c(0.05,0.95)))
 
 #resample I
+set.seed(1)
 for(i in 1:R) {
   s <- sample(PPsubset$I, size = length(PPsubset$I), replace = T)
   m[i] <- mean(s)
@@ -119,6 +105,7 @@ mean(m)
 round(quantile(m, c(0.05,0.95)))
 
 #resample ET
+set.seed(1)
 for(i in 1:R) {
   s <- sample(PPsubset$ET, size = length(PPsubset$ET), replace = T)
   m[i] <- mean(s)
