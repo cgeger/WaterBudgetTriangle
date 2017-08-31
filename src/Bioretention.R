@@ -5,7 +5,6 @@ library(ggplot2)
 library(ggtern)
 library(dplyr)
 
-
 #Set project directory
 setwd("E:/TrianglR/WaterBudgetTriangle")
 
@@ -39,7 +38,7 @@ cbPalette <- c("#0072B2", #deepblue
                "#F0E442") #lemonyellow"
                
 #plot on ternary diagram
-pdf("results/Fig4Bioretention.pdf")
+pdf("results/Fig4Bioretention.pdf", width = 8)
 ggtern(data = BR, aes(Q,I,ET)) + 
   theme_bw() + theme_clockwise() +
   theme_rotate(60) + theme_showarrows() +
@@ -70,7 +69,6 @@ round(quantile(BRsubset$ET/5,c(0.05,0.95)))*5
 
 #Get confidence intervals of dataset
 #How many times do you want to sample?
-set.seed(1)
 R <- 1000
 m <- numeric(R) #initialize vector of means
 
@@ -106,7 +104,3 @@ hist(m)
 mean(m)
 #5th and 95th percentiles of Q distribution of means (rounded to nearest 1%)
 round(quantile(m, c(0.05,0.95)))
-
-
-
-
