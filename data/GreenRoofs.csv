@@ -1,0 +1,87 @@
+Country,Type,Name, Q ,I,ET,sum,Notes,Reference,Check,Year
+USA,Green Roof,"Citing Scholz-Barth (2001) Illinois, USA",35,0,65,100,,Ahiablame et al (2012),x,2001
+CAN,Green Roof,"Citing Bass and Baskaran (2003) Ottawa, Canada",77,0,23,100,,Ahiablame et al (2012),x,2003
+CAN,Green Roof,"Citing Liu (2003) Ottawa, Canada",46,0,54,100,,Ahiablame et al (2012),x,2003
+USA,Green Roof,"Citing Bliss et al (2009) Pennsylvania, USA",30,0,70,100,,Ahiablame et al (2012),x,2009
+CAN,Green Roof,"Citing Roehr and Kong (2010) Vancouver and Kelowna, Canada",71,0,29,100,Low end of range,Ahiablame et al (2012),x,2010
+CAN,Green Roof,"Citing Roehr and Kong (2010) Vancouver and Kelowna, Canada",0,0,100,100,High end of range,Ahiablame et al (2012),x,2010
+CAN,Green Roof,"Citing Roehr and Kong (2010) Shanghai, China",45,0,55,100,,Ahiablame et al (2012),x,2010
+USA,GR Model,"Raleigh, NC",55,0,45,100,AGRR Predictive Model,Berghage et al. (2007),x,2007
+USA,GR Model,"State College, PA",47,0,53,100,AGRR Predictive Model,Berghage et al. (2007),x,2007
+USA,Control Roof,"State College, PA",86,0,14,100,Cumulative retention on asphalt over 11 months (72 events),Berghage et al. (2009),x,2009
+USA,Green Roof,"State College, PA",47,0,53,100,Cumulative retention over 11 months (72 events),Berghage et al. (2009),x,2009
+USA,Green Roof,"Citing Berghage et al (2010)  Chicago, IL",26,0,74,100,Cumulative retention over two years,Carson et al. (2013),x,2010
+USA,Green Roof,"Citing Berkompas et al (2008)  Seattle, WA",73,0,27,100,Average of 3 reported roofs,Carson et al. (2013),x,2008
+CAN,Lab Scale GR,"Citing Connelly et al (2006) Vancouver, Canada",72,0,28,100,Average of 2 reported roofs,Carson et al. (2013),x,2006
+USA,Green Roof,"Citing Kurtz (2008) Portland, OR",40,0,60,100,Average of 2 reported roofs,Carson et al. (2013),x,2008
+SVG,Green Roof,"Citing Bengtsson et al (2005) Augustenborg, Sweden",54,0,46,100,Average retention,Berndtsson (2010),x,2005
+USA,Green Roof,"Citing DeNardo et al (2005) State College, PA",55,0,45,100,Average retention,Berndtsson (2010),x,2005
+USA,Lab Scale GR,"5 cm depth test plot, heavy intensity",80,0,20,100,Average retention over 27 tests,Buccola and Spolek (2011),x,2011
+USA,Lab Scale GR,"5 cm depth test plot, medium intensity",64,0,36,100,Average retention over 27 tests,Buccola and Spolek (2011),x,2011
+USA,Lab Scale GR,"14 cm depth test plot, heavy intensity",44,0,56,100,Average retention over 24 tests,Buccola and Spolek (2011),x,2011
+USA,Lab Scale GR,"14 cm depth test plot, medium intensity",36,0,64,100,Average retention over 24 tests,Buccola and Spolek (2011),x,2011
+USA,Green Roof,"Green Roof, Southfield, MI",32,0,68,100,Cumulative retention over 6 months,Carpenter and Kaluvakolanu (2011),x,2011
+USA,Blue Roof,"Stone Roof, Southfield, MI",42,0,58,100,Cumulative retention over 5 months,Carpenter and Kaluvakolanu (2011),x,2011
+USA,Control Roof,"Asphalt Roof, Southfield, MI",90,0,10,100,Cumulative retention over 6 months,Carpenter and Kaluvakolanu (2011),x,2011
+USA,Green Roof,"Vegetated mat, Columbia University, New York, NY",64,0,36,100,Cumulative retenion for one year,Carson et al. (2013),x,2013
+USA,Green Roof,"USPS Morgan, New York, NY",53,0,47,100,Cumulative retenion for one year,Carson et al. (2013),x,2013
+USA,Green Roof,"ConEdison Learning Center, New York, NY",39,0,61,100,Cumulative retenion for one year,Carson et al. (2013),x,2013
+USA,Green Roof,"UGA, Athens, GA",22,0,78,100,Average retention of 32 events (one year),Carter and Rasmussen (2005),x,2005
+USA,Green Roof,"UGA, Athens, GA",38,0,62,100,Cumulative retention for one year (table 1),Carter and Rasmussen (2006),x,2006
+NZL,Green Roof,UoA living roof,24,5,76,105,Event Based Median retention,Fassman-Beck et al. (2013),x,2013
+NZL,Green Roof,Tamaki 150 mini-roof,34,3,66,103,Event Based Median retention,Fassman-Beck et al. (2013),x,2013
+NZL,Green Roof,Tamaki 100 mini-roof,44,3,56,103,Event Based Median retention,Fassman-Beck et al. (2013),x,2013
+NZL,Green Roof,WCC living roof,28,3,72,103,Event Based Median retention,Fassman-Beck et al. (2013),x,2013
+NZL,Green Roof,UoA living roof,34,0,66,100,Cumulative retention,Fassman-Beck et al. (2013),x,2013
+NZL,Green Roof,Tamaki 150 mini-roof,43,0,57,100,Cumulative retention,Fassman-Beck et al. (2013),x,2013
+NZL,Green Roof,Tamaki 100 mini-roof,52,0,48,100,Cumulative retention,Fassman-Beck et al. (2013),x,2013
+NZL,Green Roof,WCC living roof,34,0,66,100,Cumulative retention,Fassman-Beck et al. (2013),x,2013
+ITA,Green Roof,,32,0,68,100,Cumulative retention,Fioretti et al. (2010),x,2010
+USA,Green Roof,"East Lansing, MI tilted platforms",20,0,80,100,Average overall retention over two years,Getter et al. (2007),x,2007
+USA,Green Roof,"Storrs, CT plaza watershed",48,0,51,100,Water balance for 5 months in Fall/Winter,Gregoire and Clausen (2011),x,2011
+DEU,Green Roof,"Citing Steusloff (1998) Kalsruhe, Germany",32,0,68,100,Cumulative retention,Gregoire and Clausen (2011),x,1998
+CAN,Green Roof,"Citing MacMillan (2004) Toronto, Canada",47,0,53,100,Cumulative retention,Gregoire and Clausen (2011),x,2004
+USA,Green Roof,"Cting Monterrusso et al (2004) Michigan, USA",50,0,50,100,Cumulative retention,Gregoire and Clausen (2011),x,2004
+USA,Green Roof,"Goldsboro, NC",36,0,64,100,Cumulative retention excluding January,Hathaway et al. (2008),x,2008
+USA,Green Roof,"Kinston, NC",36,0,64,100,Cumulative retention excluding January,Hathaway et al. (2008),x,2008
+USA,Green Roof,"Portland, OR",31,0,69,100,Two years cumulative retention,Hutchinson et al. (2003),x,2003
+CAN,Green Roof,Toronto test roofs,43,0,57,100,Annual average reduction as compared to control roof,Liu and Minor (2005),x,2005
+DEU,Blue Roof,Summary statistic from review paper,75,0,25,100,Gravel Roofs median,Mentens et al. (2006),x,2006
+DEU,Control Roof,Summary statistic from review paper,85,0,15,100,Non-greened roof median,Mentens et al. (2006),x,2006
+DEU,Green Roof,Summary statistic from review paper,25,0,75,100,Intensive Roofs median,Mentens et al. (2006),x,2006
+DEU,Green Roof,Summary statistic from review paper,55,0,45,100,Extensive Roofs median,Mentens et al. (2006),x,2006
+USA,Green Roof,"Goldsboro, NC - WCC",37,0,63,100,Cumulative retention for one year,Moran et al. (2005),x,2005
+USA,Green Roof,"Raleigh, NC - B&J",45,0,55,100,Cumulative retention for one year,Moran et al. (2005),x,2005
+GB,Green Roof,University of Leeds Performing Arts,34,0,66,100,Average retention over two  years,Nawaz et al. (2015),x,2015
+ITA,Green Roof,"University of Genoa, Italy",32,0,68,100,Cumulative retention for 13 months,Palla et al. (2011),x,2011
+USA,Green Roof,"Gratz Building, New York, NY",61,0,39,100,Cumulative retention for one year (table 5),Riley et al (2010),x,2010
+UK,Green Roof,"University of Sheffield, Sheffield, UK",66,0,34,100,Cumulative retention for 11 spring events,Stovin (2010),x,2010
+UK,Green Roof,"University of Sheffield, Sheffield, UK",50,0,50,100,Cumulative annual retention,Stovin et al. (2012),x,2012
+UK,GR Model,"NW Scotland, UK",81,0,19,100,Cumulative volumetric retention for 30 years,Stovin et al. (2013),x,2013
+UK,GR Model,"Cornwall, UK",67,0,33,100,Cumulative volumetric retention for 30 years,Stovin et al. (2013),x,2013
+UK,GR Model,"Sheffield, UK",60,0,40,100,Cumulative volumetric retention for 30 years,Stovin et al. (2013),x,2013
+UK,GR Model,"East Midlands, UK",41,0,59,100,Cumulative volumetric retention for 30 years,Stovin et al. (2013),x,2013
+EST,Green Roof,"Tartu, Estonia",11,0,89,100,Cumulative retention for two light events compared with a control roof,Teemusk and Mander (2007),x,2007
+EST,Green Roof,"Tartu, Estonia",81,0,19,100,Cumulative retention for one snowmelt event compared with a control roof,Teemusk and Mander (2007),x,2007
+CAN,Green Roof,"York University, Toronto, Canada",37,0,63,100,Average retention over two years relative to control,TRCA (2006),,2006
+CAN,Green Roof,Toronto test roofs,46,0,54,100,Cumulative retention for 2003,Van Seters et al (2009),x,2003
+CAN,Green Roof,Toronto test roofs,25,0,75,100,Cumulative retention for 2004,Van Seters et al (2009),x,2004
+CAN,Green Roof,Toronto test roofs,25,0,75,100,Cumulative retention for 2005,Van Seters et al (2009),x,2005
+CAN,Control Roof,Control for Toronto test roofs,98,0,2,100,Cumulative retention over 3 years,Van Seters et al (2009),x,2009
+USA,Control Roof,Summer Model Control,100,0,0,100,"Calculated estimates from model baseline parameters in tables 1,2, and baseline runoff results from Fig 2",Vanuytrecht et al (2014),x,2014
+USA,Control Roof,Winter Model Control,100,0,0,100,"Calculated estimates from model baseline parameters in tables 1,2, and baseline runoff results from Fig 2",Vanuytrecht et al (2014),x,2014
+USA,GR Model,Summer Model GH,11,4,85,100,"Calculated estimates from model baseline parameters in tables 1,2, and baseline runoff results from Fig 2",Vanuytrecht et al (2014),x,2014
+USA,GR Model,Winter Model GH,78,7,15,100,"Calculated estimates from model baseline parameters in tables 1,2, and baseline runoff results from Fig 2",Vanuytrecht et al (2014),x,2014
+USA,GR Model,Summer Model SM,18,4,78,100,"Calculated estimates from model baseline parameters in tables 1,2, and baseline runoff results from Fig 2",Vanuytrecht et al (2014),x,2014
+USA,GR Model,Winter Model SM,80,6,14,100,"Calculated estimates from model baseline parameters in tables 1,2, and baseline runoff results from Fig 2",Vanuytrecht et al (2014),x,2014
+USA,Blue Roof,"East Lansing, MI Gravel ballast platform",73,0,27,100,Cumulative retention over 14 months,VanWoert et al. (2005),x,2005
+USA,Blue Roof,"East Lansing, MI Media only platform",50,0,50,100,Cumulative retention over 14 months,VanWoert et al. (2005),x,2005
+USA,Lab Scale GR,"East Lansing, MI Vegetated platform",39,0,61,100,Cumulative retention over 14 months,VanWoert et al. (2005),x,2005
+DEU,Green Roof,German Study by Kohler (2002),30,0,70,100,Average of cited range,Villarreal and Bengtsson (2005),x,2002
+USA,Green Roof,Study by Scholz-Barth (2001),25,0,75,100,Extensive roof,Villarreal and Bengtsson (2005),x,2001
+SVG,Lab Scale GR,"tilted roof sections Lund, Sweden",65,0,35,100,Average of values from table 2,Villarreal and Bengtsson (2005),x,2005
+NZL,Green Roof,"University of Auckland, New Zealand",18,0,82,100,Event-Based Median retention,Voyde et al. (2010),x,2010
+NZL,Green Roof,"University of Auckland, New Zealand",34,0,66,100,Cumulative retention for one year,Voyde et al. (2010),x,2010
+USA,Green Roof,"Villanova University, Philadelphia, PA",29,3,68,100,Cumulative retention for 2009 growing season,Wadzuk et al (2013),x,2009
+USA,Green Roof,"Villanova University, Philadelphia, PA",17,0,83,100,"Cumulative retention for 2010 growing season, I estimated as 0",Wadzuk et al (2013),x,2010
+USA,Green Roof,"Villanova University, Philadelphia, PA",26,1,73,100,Cumulative retention for 2011 growing season,Wadzuk et al (2013),x,2011
