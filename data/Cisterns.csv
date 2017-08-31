@@ -1,0 +1,37 @@
+Author,Type,Abbr,Location,Rainfall(mm),Cistern Size (L),Q,I,ET,Notes
+Steffen,Model,US,"Mountain West, US",378,190,32,68,0,"assumes no abstraction, ET = 0"
+Steffen,Model,US,"Southwest, US",170,190,27,73,0,"assumes no abstraction, ET = 0"
+Steffen,Model,US,"Southeast, US",1013,190,59,41,0,"assumes no abstraction, ET = 0"
+Steffen,Model,US,"East Coast, US",1092,190,61,39,0,"assumes no abstraction, ET = 0"
+Steffen,Model,US,"Midwest, US",891,190,50,50,0,"assumes no abstraction, ET = 0"
+Steffen,Model,US,"West Coast, US",328,190,49,51,0,"assumes no abstraction, ET = 0"
+Steffen,Model,US,"Pacific North West, US",935,190,53,47,0,"assumes no abstraction, ET = 0"
+Guizani,Model,KSA,"Ha'il, Saudi Arabia",77,7000,68,32,0,assumes maximum cumulative water balance as I
+Guizani,Model,KSA,"Medina, Saudi Arabia",49.1,9000,24,76,0,assumes maximum cumulative water balance as I
+Guizani,Model,KSA,"Buraydah, Saudi Arabia",63.6,9000,41,59,0,assumes maximum cumulative water balance as I
+Guizani,Model,KSA,"Jeddah, Saudi Arabia",53.5,4000,69,31,0,assumes maximum cumulative water balance as I
+Guizani,Model,KSA,"Ta'if, Saudi Arabia",119,9000,71,29,0,assumes maximum cumulative water balance as I
+Guizani,Model,KSA,"Jizan, Saudi Arabia",37.5,7000,63,37,0,assumes maximum cumulative water balance as I
+Guizani,Model,KSA,"Riyadh, Saudi Arabia",101.3,9000,69,31,0,assumes maximum cumulative water balance as I
+Guizani,Model,KSA,"Mecca, Saudi Arabia",90.5,10000,63,37,0,assumes maximum cumulative water balance as I
+Zhang,Model,CHN,"Fujian, China",50,900000,4,96,0,assumes 2 mm first flush as Q
+Zhang,Model,CHN,"Fujian, China",111.2,900000,2,98,0,assumes 2 mm first flush as Q
+Zhang,Model,CHN,"Fujian, China",233.6,900000,42,58,0,assumes 2 mm first flush as Q
+Millar,Monthly measurement,AU,"Queensland, Australia",36.5,22000,32,58,10,assumes 10% roof abstraction is ET
+Millar,Monthly measurement,AU,"Queensland, Australia",42.5,22000,64,26,10,assumes 10% roof abstraction is ET
+Millar,Monthly measurement,AU,"Queensland, Australia",151,22000,33,67,10,assumes 10% roof abstraction is ET
+Millar,Monthly measurement,AU,"Queensland, Australia",46,22000,55,45,10,assumes 10% roof abstraction is ET
+Millar,Monthly measurement,AU,"Queensland, Australia",44,22000,40,60,10,assumes 10% roof abstraction is ET
+Millar,Monthly measurement,AU,"Queensland, Australia",47.5,22000,47,53,10,assumes 10% roof abstraction is ET
+Millar,Monthly measurement,AU,"Queensland, Australia",95,22000,29,71,10,assumes 10% roof abstraction is ET
+Millar,Monthly measurement,AU,"Queensland, Australia",112.5,22000,40,60,10,assumes 10% roof abstraction is ET
+Millar,Cumulative retention,AU,"Queensland, Australia",575,22000,32,58,10,assumes 10% roof abstraction is ET
+Millar,Model,AU,"Queensland, Australia",36.5,22000,37,60,3,assumes 3% roof abstraction is ET
+Millar,Model,AU,"Queensland, Australia",42.5,22000,64,33,3,assumes 3% roof abstraction is ET
+Millar,Model,AU,"Queensland, Australia",151,22000,28,69,3,assumes 3% roof abstraction is ET
+Millar,Model,AU,"Queensland, Australia",46,22000,51,46,3,assumes 3% roof abstraction is ET
+Millar,Model,AU,"Queensland, Australia",44,22000,36,61,3,assumes 3% roof abstraction is ET
+Millar,Model,AU,"Queensland, Australia",47.5,22000,31,66,3,assumes 3% roof abstraction is ET
+Millar,Model,AU,"Queensland, Australia",95,22000,31,66,3,assumes 3% roof abstraction is ET
+Millar,Model,AU,"Queensland, Australia",112.5,22000,33,64,3,assumes 3% roof abstraction is ET
+Millar,Model,AU,"Queensland, Australia",575,22000,34,63,3,assumes 3% roof abstraction is ET

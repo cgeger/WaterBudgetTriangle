@@ -1,0 +1,31 @@
+Paper,Estimate,Q,I,ET,Type
+"Amick and Burgess 2000, 2003","Pardee St, Berkeley, CA",66,34,0,Sewer section(s)
+"Amick and Burgess 2000, 2003","7th St, Berkeley, CA",44,56,0,Sewer section(s)
+"Amick and Burgess 2000, 2003",WSSC John Hanson Hwy,83.4,16.6,0,Sewer section(s)
+"Amick and Burgess 2000, 2003",WSSC UMaryland,50.9,49.1,0,Sewer section(s)
+"Amick and Burgess 2000, 2003",Lexington Lumber Yard,77.4,22.6,0,Sewer section(s)
+"Amick and Burgess 2000, 2003",Lexington Car Lot,68.7,31.3,0,Sewer section(s)
+"Amick and Burgess 2000, 2003","Lexington, Various 1",88.1,11.9,0,Sewer section(s)
+"Amick and Burgess 2000, 2003","Lexington, Various 2",65.5,34.5,0,Sewer section(s)
+"Amick and Burgess 2000, 2003","Albuquerque, NM",84,16,0,Sewershed
+"Amick and Burgess 2000, 2003",Hong Kong,92,8,0,Sewershed
+"Amick and Burgess 2000, 2003",England,77.5,22.5,0,Sewershed
+"Amick and Burgess 2000, 2003",Net Efflux Estimate Albuquerque,98,2,0,Sewershed
+Reickermann 2005,Swiss Salt Tracer Study,91.8,8.2,0,Salt tracer model
+Reickermann 2005,Swiss Salt Tracer Study,87.5,12.5,0,Salt tracer model
+Reickermann 2005,Swiss Salt Tracer Study ,90.1,9.9,0,Salt tracer model
+Rutsch 2005,"citing Fenz, 2003",97,3,0,Sewershed
+Rutsch 2005,"citing Fenz, 2004",99,1,0,Sewershed
+Rutsch 2005,"citing Wakida and Lerner, 2005",87,13,0,Sewershed
+Rutsch 2005,"citing Karpf and Krebs, 2004",97.2,2.8,0,Sewershed
+Rutsch 2005,"citing Rutsch and Krebs, 2005",87.5,12.5,0,Sewer section(s)
+Michigan DEQ 2001,Detroit CSO Cumulative,98.5,1.5,0,Sewershed
+Michigan DEQ 2001,Detroit CSO Avg,89.8,10.2,0,Sewershed
+Michigan DEQ 2001,Detroit CSO Reported,85.3,14.7,0,Sewershed
+Rutsch 2007,STE avg (table 9),88.3,11.7,0,Sewer section(s)
+Rutsch 2007,LDA avg (table 9),85.1,14.9,0,Sewer section(s)
+Rutsch 2007,KCR avg (table 9),94.1,5.9,0,Sewer section(s)
+Rutsch 2007,KRI avg (table 9),86.1,13.9,0,Sewer section(s)
+Xu 2014,"Changzhou, Jiangsu, China",49,51,0,Sewershed
+Guizani 2016,Saudi Freshwater conveyance,62.5,37.5,0,Long-distance freshwater conveyance
+Ellis 2003,Experimental system,92.5,7.5,0,Experimental model
