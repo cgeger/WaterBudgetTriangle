@@ -38,7 +38,7 @@ cbPalette <- c("#0072B2", #deepblue
                "#F0E442") #lemonyellow"
                
 #plot on ternary diagram
-pdf("results/Fig4Bioretention.pdf", width = 8)
+pdf("results/Fig4Bioretention.pdf", width = 8, height = 5)
 ggtern(data = BR, aes(Q,I,ET)) + 
   theme_bw() + theme_clockwise() +
   theme_rotate(60) + theme_showarrows() +

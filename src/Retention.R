@@ -1,4 +1,4 @@
-#This script creates figure 1, comparing natural wetlands, lakes and constructed wetlands.
+#This script creates figure 2, retention basins.
 
 #Required packages:
 library(ggplot2)
@@ -7,7 +7,7 @@ library(dplyr)
 library(ggrepel)
 
 #Set project directory
-setwd("//hd.ad.syr.edu/02/c199b1/Documents/Triangle/WaterBudgetTriangle")
+setwd("E:/TrianglR/WaterBudgetTriangle")
 
 #load dataset
 R <- read.csv("data/Retention.csv")
@@ -28,7 +28,7 @@ str(R)
 R
 
 #plot on Ternary diagram
-pdf("results/Fig2Retention_HRT.pdf")
+pdf("results/Fig2Retention_HRT.pdf", height = 4, width = 6)
 ggtern(data= R, aes(Qr, Ir, ETr)) + 
   theme_bw() + theme_clockwise() +
   theme_rotate(60) + theme_showarrows() +

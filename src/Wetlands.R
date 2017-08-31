@@ -6,7 +6,7 @@ library(ggtern)
 library(dplyr)
 
 #Set project directory
-setwd("//hd.ad.syr.edu/02/c199b1/Documents/Triangle/WaterBudgetTriangle")
+setwd("E:/TrianglR/WaterBudgetTriangle")
 
 #load dataset
 W <- read.csv("data/Wetlands.csv")
@@ -30,7 +30,7 @@ cbPalette <- c("#009E73", #kellygreen
                "#999999") #gray 
                
 #plot on Ternary diagram
-pdf("results/Fig1Wetlands.pdf")
+pdf("results/Fig1Wetlands.pdf", height = 4, width = 5)
 ggtern(data= W, aes(Q, I, ET, color = Category)) + 
   theme_bw() + theme_clockwise() +
   theme_rotate(60) + theme_showarrows() +

@@ -1,4 +1,4 @@
-#This script creates figure 3, detention ponds
+#This script creates figure 3, detention ponds.
 
 #Required packages:
 library(ggplot2)
@@ -6,7 +6,7 @@ library(ggtern)
 library(dplyr)
 
 #Set project directory
-setwd("//hd.ad.syr.edu/02/c199b1/Documents/Triangle/WaterBudgetTriangle")
+setwd("E:/TrianglR/WaterBudgetTriangle")
 
 #load data
 D <- read.csv("data/Detention.csv")
@@ -40,7 +40,7 @@ cbPalette <- c("#009E73", #kellygreen
 ) 
 
 #plot on Ternary diagram precipitation in mm, Q,I and ET in %
-pdf("results/Fig3Detention.pdf")
+pdf("results/Fig3Detention.pdf", width = 6, height = 4)
 ggtern(data= D, aes(Q, I, ET)) + 
   theme_bw() + theme_clockwise() +
   theme_rotate(60) + theme_showarrows() +

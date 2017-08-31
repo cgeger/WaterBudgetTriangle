@@ -39,7 +39,7 @@ cbPalette <- c("#009E73", #kellygreen
                "#D55E00") #orange-red
                
 #plot on Ternary diagram
-pdf("results/Fig5PorousPavement.pdf", width = 9)              
+pdf("results/Fig5PorousPavement.pdf", width = 9, height = 5)              
 ggtern(data = PP, aes(Q, I, ET)) + 
   theme_bw() + theme_clockwise() +
   theme_rotate(60) + theme_showarrows() +
