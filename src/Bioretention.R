@@ -56,16 +56,20 @@ dev.off()
 #A subset of the bioretention dataset is used to calculate summary statistics
 #load subset of bioretention values (long-term measurements only)
 BRsubset <- BR[c(60:69),]
+BRsubset$sum <- BRsubset$Q + BRsubset$I + BRsubset$ET
+BRsubset$Qr <- BRsubset$Q/BRsubset$sum * 100
+BRsubset$Ir <- BRsubset$I/BRsubset$sum * 100
+BRsubset$ETr <- BRsubset$ET/BRsubset$sum * 100
 
 #Calculate summary statistics: mean, median and count
 BRsubset %>% 
-  summarize(avgQ = mean(Q), avgI = mean(I), avgET = mean(ET),
-            medQ = median(Q), medI = median(I), medET = median(ET),
+  summarize(avgQ = mean(Qr), avgI = mean(Ir), avgET = mean(ETr),
+            medQ = median(Qr), medI = median(Ir), medET = median(ETr),
             n = n())
 #Get quantiles (rounded to nearest 5%)
-round(quantile(BRsubset$Q/5,c(0.05,0.95)))*5
-round(quantile(BRsubset$I/5,c(0.05,0.95)))*5
-round(quantile(BRsubset$ET/5,c(0.05,0.95)))*5
+round(quantile(BRsubset$Qr/5,c(0.05,0.95)))*5
+round(quantile(BRsubset$Ir/5,c(0.05,0.95)))*5
+round(quantile(BRsubset$ETr/5,c(0.05,0.95)))*5
 
 #Get confidence intervals of dataset
 #How many times do you want to sample?
@@ -75,7 +79,7 @@ m <- numeric(R) #initialize vector of means
 #resample Q
 set.seed(1)
 for (i in 1:R) {
-  s <- sample(BRsubset$Q, size = length(BRsubset$Q), replace = T)
+  s <- sample(BRsubset$Qr, size = length(BRsubset$Qr), replace = T)
   m[i] <- mean(s)
 }
 hist(m)
@@ -86,7 +90,7 @@ round(quantile(m, c(0.05,0.95)))
 #resample I
 set.seed(1)
 for (i in 1:R) {
-  s <- sample(BRsubset$I, size = length(BRsubset$I), replace = T)
+  s <- sample(BRsubset$Ir, size = length(BRsubset$Ir), replace = T)
   m[i] <- mean(s)
 }
 hist(m)
@@ -97,7 +101,7 @@ round(quantile(m, c(0.05,0.95)))
 #resample ET
 set.seed(1)
 for (i in 1:R) {
-  s <- sample(BRsubset$ET, size = length(BRsubset), replace = T)
+  s <- sample(BRsubset$ETr, size = length(BRsubset$ETr), replace = T)
   m[i] <- mean(s)
 }
 hist(m)
