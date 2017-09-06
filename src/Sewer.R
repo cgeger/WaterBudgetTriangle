@@ -53,6 +53,18 @@ ggtern(data= S, aes(Q, I, ET, color = Type)) +
   scale_alpha_continuous(limits = c(0,1), guide = F)
 dev.off()
 
+ggsave("results/FigS4Sewers.png", height = 4, width = 7, dpi = 900, device = "png")
+ggtern(data= S, aes(Q, I, ET, color = Type)) + 
+  theme_bw() + theme_clockwise() +
+  theme_rotate(60) + theme_showarrows() +
+  Llab("Q", labelarrow = "Q - Runoff") +
+  Tlab("I", labelarrow = "I - Infiltration") +
+  Rlab("ET", labelarrow = "ET - Evapotranspiration") +
+  geom_mask() + geom_point(size = 3, aes(shape = Type, alpha = alpha)) +
+  scale_colour_manual(values=cbPalette) + 
+  scale_alpha_continuous(limits = c(0,1), guide = F)
+dev.off()
+
 #Calculate quantile ranges and confidence intervals for whole sewersheds (SS)
 SSsub <- S %>%
   filter(Type == "Sewershed") #set category of interest

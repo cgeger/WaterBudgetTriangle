@@ -54,6 +54,21 @@ ggtern(data = PP, aes(Q, I, ET)) +
   scale_alpha_continuous(limits = c(0,1), guide = F)
 dev.off()
 
+ggsave("results/Fig5PorousPavement.png", height = 5, width = 9, dpi = 900, device = "png")
+ggtern(data = PP, aes(Q, I, ET)) + 
+  theme_bw() + theme_clockwise() +
+  theme_rotate(60) + theme_showarrows() +
+  Llab("Q", labelarrow = "Q - Runoff") +
+  Tlab("I", labelarrow = "I - Infiltration") +
+  Rlab("ET", labelarrow = "ET - Evapotranspiration") + geom_mask() +
+  labs(size = "Precipitation (mm)") +
+  geom_mask() +
+  geom_point(aes(size = P, color = Type, shape = Type, alpha = Alpha)) +
+  scale_colour_manual(values = cbPalette) +
+  scale_shape_manual(values = c(16,3,17,18,8,7,7)) +
+  scale_alpha_continuous(limits = c(0,1), guide = F)
+dev.off()
+
 #A subset of the porous pavement dataset is used to calculate summary statistics
 PP %>%
   filter(Type == "Porous pavement, cobblestone or interlocking pavers") %>%

@@ -53,8 +53,7 @@ ggtern(data = BR, aes(Q,I,ET)) +
   scale_alpha_continuous(limits = c(0,1), guide = F)
 dev.off()
 
-
-ggsave(file="results/Fig4Bioretention.tif", width = 8, height = 5, device = "tiff")
+ggsave(file="results/Fig4Bioretention.png", width = 8, height = 5, dpi = 900, device = "png")
 ggtern(data = BR, aes(Q,I,ET)) + 
   theme_bw() + theme_clockwise() +
   theme_rotate(60) + theme_showarrows() +

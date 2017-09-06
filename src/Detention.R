@@ -56,6 +56,22 @@ ggtern(data= D, aes(Q, I, ET)) +
   scale_alpha_continuous(limits = c(0,1), guide = F)
 dev.off()
 
+ggsave("results/Fig3Detention.png", width = 6, height = 4, dpi = 900, device = "png")
+ggtern(data= D, aes(Q, I, ET)) + 
+  theme_bw() + theme_clockwise() +
+  theme_rotate(60) + theme_showarrows() +
+  Llab("Q", labelarrow = "Q - Runoff") +
+  Tlab("I", labelarrow = "I - Infiltration") +
+  Rlab("ET", labelarrow = "ET - Evapotranspiration") +
+  labs(size = "Precipitation (mm)",
+       shape = "Time period") +
+  geom_mask() +
+  geom_point(aes(size = P, color = Type, shape = shape, alpha = alpha))+
+  scale_shape_manual(values = c(16,3))+
+  scale_colour_manual(values=cbPalette)+
+  scale_alpha_continuous(limits = c(0,1), guide = F)
+dev.off()
+
 #A subset of the detention dataset is used to calculate summary statistics
 #get subset:
 Dsub <- D %>%

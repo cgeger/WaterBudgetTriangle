@@ -42,6 +42,21 @@ ggtern(data= R, aes(Qr, Ir, ETr)) +
   geom_text(aes(label= Site,vjust = vjust, hjust = hjust), size = 2.5)
 dev.off()
 
+ggsave("results/Fig2Retention_HRT.png", height = 4, width = 6, dpi = 900, device = "png")
+ggtern(data= R, aes(Qr, Ir, ETr)) + 
+  theme_bw() + theme_clockwise() +
+  theme_rotate(60) + theme_showarrows() +
+  Llab("Q", labelarrow = "Q - Runoff") +
+  Tlab("I", labelarrow = "I - Infiltration") +
+  Rlab("ET", labelarrow = "ET - Evapotranspiration") + geom_mask() +
+  geom_point(aes(color = log(HRTime)), size = 2) +
+  geom_point(aes(color = log(HRTime)), size = 5, alpha = 0.4) +
+  scale_colour_gradient("Hydraulic\nRetention\nTime",low = "darkblue", high= "red", 
+                        breaks=c(2.996,3.689,4.605,5.298,5.991),
+                        labels=c("20","40","100","200","400 days")) +
+  geom_text(aes(label= Site,vjust = vjust, hjust = hjust), size = 2.5)
+dev.off()
+
 #Calculate summary statistics: mean, median and count
 R %>% summarize(avgQ = mean(Qr), avgI = mean(Ir), avgET = mean(ETr),
                 medQ = median(Qr), medI = median(Ir), medET = median(ETr),
@@ -108,6 +123,18 @@ cbPalette <- c("#999999",
 #plot seasonal retention
 #Q,I and ET are all in mm
 pdf("results/FigS1SeasonalRetention.pdf", height = 5, width = 6)
+ggtern(data= SR, aes(Q, I, ET, color = Site)) + 
+  theme_bw() + theme_clockwise() +
+  theme_rotate(60) + theme_showarrows() +
+  Llab("Q", labelarrow = "Q - Runoff") +
+  Tlab("I", labelarrow = "I - Infiltration") +
+  Rlab("ET", labelarrow = "ET - Evapotranspiration") + geom_mask() +
+  geom_point(aes(size = P.cm), alpha = 0.65) +
+  scale_colour_manual(values=cbPalette) +
+  scale_size_area("Precipitation\n(cm)")
+dev.off()
+
+ggsave("results/FigS1SeasonalRetention.png", height = 5, width = 6, dpi = 900, device = "png")
 ggtern(data= SR, aes(Q, I, ET, color = Site)) + 
   theme_bw() + theme_clockwise() +
   theme_rotate(60) + theme_showarrows() +

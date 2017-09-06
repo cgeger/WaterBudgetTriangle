@@ -38,6 +38,20 @@ ggtern(data= Cs, aes(Q, I, ET)) +
   scale_color_manual(values = cbPalette)
 dev.off()
 
+ggsave("results/FigS3Cisterns.png", height = 4, width = 6, dpi = 900, device = "png")
+ggtern(data= Cs, aes(Q, I, ET)) + 
+  theme_bw() + theme_clockwise() +
+  theme_rotate(60) + theme_showarrows() +
+  Llab("Q", labelarrow = "Q - Runoff") +
+  Tlab("I", labelarrow = "I - Infiltration") +
+  Rlab("ET", labelarrow = "ET - Evapotranspiration") +
+  geom_point(aes(color = Type, size = Rainfall.mm.), alpha = 0.3) +
+  geom_mask() + 
+  geom_point(aes(size = Rainfall.mm., color = Type, shape = Type)) + scale_shape_manual(values = c(16,7,3))+
+  scale_size_area(name = "Precipitation\n(mm)") +
+  scale_color_manual(values = cbPalette)
+dev.off()
+
 #calculate mean values            
 mean(Cs$Q)
 mean(Cs$I)

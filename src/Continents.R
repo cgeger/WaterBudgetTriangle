@@ -53,3 +53,15 @@ ggtern(data= continents, aes(Q, I, ET)) +
   geom_mask() + scale_size_area("Precipitation\n(mm)") +
   scale_colour_manual(values=cbPalette)
 dev.off()
+
+ggsave("results/FigS5Continents.png", height = 4, dpi = 900, device = "png")
+ggtern(data= continents, aes(Q, I, ET)) + 
+  theme_bw() + theme_clockwise() +
+  theme_rotate(60) + theme_showarrows() +
+  Llab("Q", labelarrow = "Q - Runoff") +
+  Tlab("I", labelarrow = "I - Infiltration") +
+  Rlab("ET", labelarrow = "ET - Evapotranspiration") + 
+  geom_point(aes(size = P, color = Continent), alpha = 0.8) + #geom_point(aes(color = Continent))
+  geom_mask() + scale_size_area("Precipitation\n(mm)") +
+  scale_colour_manual(values=cbPalette)
+dev.off()
