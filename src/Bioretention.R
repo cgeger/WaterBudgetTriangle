@@ -53,6 +53,22 @@ ggtern(data = BR, aes(Q,I,ET)) +
   scale_alpha_continuous(limits = c(0,1), guide = F)
 dev.off()
 
+
+ggsave(file="results/Fig4Bioretention.tif", width = 8, height = 5, device = "tiff")
+ggtern(data = BR, aes(Q,I,ET)) + 
+  theme_bw() + theme_clockwise() +
+  theme_rotate(60) + theme_showarrows() +
+  Llab("Q", labelarrow = "Q - Runoff") +
+  Tlab("I", labelarrow = "I - Infiltration") +
+  Rlab("ET", labelarrow = "ET - Evapotranspiration") +
+  geom_mask() +
+  labs(size = "Precipitation (mm)") +
+  geom_point(aes(color = Type, shape = Type, size = P, alpha = Alpha)) +
+  scale_colour_manual(values = cbPalette) +
+  scale_shape_manual(values = c(3,16,16,16,16,16,7,7)) +
+  scale_alpha_continuous(limits = c(0,1), guide = F)
+dev.off()
+
 #A subset of the bioretention dataset is used to calculate summary statistics
 #load subset of bioretention values (long-term measurements only)
 BRsubset <- BR[c(60:69),]
