@@ -42,6 +42,17 @@ ggtern(data= W, aes(Q, I, ET, color = Category)) +
   scale_colour_manual(values=cbPalette)
 dev.off()
 
+ggsave("results/Fig1Wetlands.png", height = 4, width = 5, dpi = 900, device = "png")
+ggtern(data= W, aes(Q, I, ET, color = Category)) + 
+  theme_bw() + theme_clockwise() +
+  theme_rotate(60) + theme_showarrows() +
+  Llab("Q", labelarrow = "Q - Runoff") +
+  Tlab("I", labelarrow = "I - Infiltration") +
+  Rlab("ET", labelarrow = "ET - Evapotranspiration") +
+  geom_mask() + geom_point(aes(shape = Category), size = 2.5) + 
+  scale_colour_manual(values=cbPalette)
+dev.off()
+
 #A subset of the wetlands dataset is used to calculate summary statistics
 #load subset of wetland values
 W.s <- read.csv("data/Wetlands_subset.csv")
@@ -126,6 +137,25 @@ cbPalette <- c("#0072B2", #deepblue
                "#56B4E9") #skyblue
 
 pdf("results/FigS2ENRP.pdf", height = 4, width = 5)
+ggtern(data = ENRP, aes(Q, I, ET, color = Cell)) + 
+  theme_bw() + theme_clockwise() +
+  theme_rotate(60) +
+  geom_mask() + 
+  geom_path(aes(group = Cell, size = Year), alpha = 0.2) + 
+  geom_point(aes(size = Year), shape = 1) + 
+  geom_point(aes(size = Year), alpha = 0.2) + 
+  scale_color_manual(values = cbPalette) +
+  scale_size_area()+
+  geom_Lline(Lintercept = 0.50001, color = "red", size = 2, linetype = "longdash") +
+  geom_text(aes(label = Year), size = 2.5) +
+  geom_text(aes(label = Cell.lab, vjust = vjust, hjust = hjust)) +
+  tern_limit(T = 0.5, #I 50
+             L = 1, #Q 100
+             R = 0.5) +#ET 50 +
+  theme(legend.position="none")
+dev.off()
+
+ggsave("results/FigS2ENRP.png", height = 4, width = 5, dpi = 900, device = "png")
 ggtern(data = ENRP, aes(Q, I, ET, color = Cell)) + 
   theme_bw() + theme_clockwise() +
   theme_rotate(60) +
